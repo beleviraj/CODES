@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+
+struct common{
+    char name[100],DOB[100],Dep[100];
+};
+
+struct student{
+    char PRN[100];
+    int yearofbeg;
+};
+
+struct faculty{
+    char post[100];
+    int salary;
+};
+
+
+int main(){
+    int n;
+    printf("\nEnter the number of students: ");
+    scanf("%d",&n);
+
+    
+
+    return 0;
+}
